@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 180px;
+}
+
+.wrap{
+    width: 1500px;
+    height: 100px;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+
+.text{
+    float: left;
+    width: 1200px;
+    height: 100px;
+}
+
+.text li{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.text li a{
+    text-align: center;
+    line-height: 100px;
+}
+
+.text li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+nav{
+    width: 1500px;
+    border-top: 1px solid lightskyblue;
+}
+
+.menu{
+    width: 1500px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.menu>li{
+    float: left;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+}
+
+.menu>li>a{
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu>li>a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.sub{
+    position: relative;
+    z-index: 3;
+    display: none;
+}
+
+.sub>li{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+}
+
+.sub>li>a{
+    text-align: center;
+    font-size: 14px;
+}
+
+.sub>li>a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.imgslide{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.imgslide img{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.imgtext{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 250px;
+}
+
+.imgtext>.title{
+    margin-top: 160px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgtext>.text{
+    margin-top: 40px;
+    margin-left: 34%;
+    font-size: 20px;
+    color: white;
+}
+
+.contents{
+    width: 100%;
+    height: 1600px;
+}
+
+.banner{
+    width: 1500px;
+    height: 350px;
+}
+
+.banner h2{
+    width: 1300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.banner ul{
+    width: 1250px;
+}
+
+.banner img{
+    float: left;
+    padding: 30px 6px;
+}
+
+.banner img:hover{
+    opacity: 0.7;
+}
+
+.tab{
+    width: 100%;
+    height: 750px;
+}
+
+.tab>h2{
+    width: 1300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+    margin-bottom: 25px;
+}
+
+.ntwrap{
+    width: 1200px;
+    height: 600px;
+}
+
+.notice>div{
+    float: left;
+    width: calc(1200px / 2);
+    height: 300px;
+}
+
+.notice .nttext h2{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.nttext ul{
+    width: 540px;
+    margin-top: 30px;
+}
+
+.nttext li{
+    text-align: center;
+}
+
+.shortcut{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.shortcut h2{
+    width: 1300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.shwrap{
+    width: 1200px;
+    height: 300px;
+}
+
+.shtext{
+    float: left;
+    padding: 20px 15px;
+}
+
+.shtext span{
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: lightskyblue;
+}
+
+.ftwrap{
+    width: 1200px;
+    height: 200px;
+}
+
+.ftwrap h3{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.ftwrap ul{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ftwrap li{
+    font-size: 14px;
+}
+
+.infor{
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+.infor li{
+    height: 25px;
+    line-height: 25px;
+}
+
+.sample{
+    float: left;
+    width: 600px;
+    height: 200px;
+}
+
+.sample li{
+    height: 25px;
+    line-height: 25px;
+}
+
+.contact{
+    float: left;
+    width: 125px;
+    height: 200px;
+}
+
+.contact li{
+    height: 25px;
+    line-height: 25px;
+}
+
+.sns{
+    float: left;
+    width: 225px;
+    height: 200px;
+}
+
+.sns img{
+    float: left;
+    padding: 15px 7px;
+}
+
+.sns img:hover{
+    opacity: 0.7;
+}
+
+.copy{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkblue;
+    color: white;
+}
+
+.copy>a{
+    width: 440px;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkblue;
+    color: white;
+}
+
+.copy>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
